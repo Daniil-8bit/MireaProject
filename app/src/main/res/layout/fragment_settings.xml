@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="onSaveText"
+        android:translationX="300dp"
+        android:translationY="175dp" />
+
+    <EditText
+        android:id="@+id/TextFirst"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Write name of wi-fi network"
+        android:translationX="20dp"
+        android:translationY="20dp" />
+
+    <EditText
+        android:id="@+id/TextSecond"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Write name of your device"
+        android:translationX="20dp"
+        android:translationY="75dp" />
+
+    <EditText
+        android:id="@+id/TextThird"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Write your password"
+        android:translationX="20dp"
+        android:translationY="130dp" />
+</FrameLayout>
